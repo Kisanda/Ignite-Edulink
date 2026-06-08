@@ -1,0 +1,14 @@
+{
+  "name": "ignite-edulink-project",
+  "version": "1.0.0",
+  "description": "Ignite Edulink – Full Stack (Frontend + Backend)",
+  "private": true,
+  "scripts": {
+    "install:all":  "npm install --prefix frontend && npm install --prefix backend",
+    "seed":         "npm run seed --prefix backend",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "dev:backend":  "npm run dev --prefix backend",
+    "start:frontend": "npm run dev --prefix frontend",
+    "start:backend":  "npm start --prefix backend"
+  }
+}
